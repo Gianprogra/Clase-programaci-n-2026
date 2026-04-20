@@ -16,5 +16,5 @@ while Minuto < 6:
     Minuto = Minuto + 1
     
 if  Minuto == 6:
-    print( 'La alarma se apago despues de un minuto') # pongo 6 porque 60 veces para es mucho jaja
+    print( 'La alarma se apago despues de un minuto') # pongo 6 porque 60  es ya mucho jaja
     
