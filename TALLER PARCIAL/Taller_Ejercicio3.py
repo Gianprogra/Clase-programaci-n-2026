@@ -14,7 +14,7 @@ def agregar_producto(inv, nombre, cantidad, precio): # Diccionario porque permit
     inv[nombre] = {'cantidad': cantidad, 'precio': precio}
 
 def eliminar_producto(inv, nombre):
-    if nombre in inv:
+    if nombre in inv: # El if está para verificar que el producto existe antes de intentar eliminarlo.
         del inv[nombre]  # elimina el producto
 
 def calcular_valor_total(inv):
@@ -33,7 +33,8 @@ def mostrar_inventario(inv):
 agregar_producto(inventario, 'Arroz', 15, 2500)
 agregar_producto(inventario, 'Leche', 50, 4300)
 agregar_producto(inventario, 'Milo', 10 , 1200)
-
 eliminar_producto(inventario,'Milo')
+
 mostrar_inventario(inventario)
 print('Valor total:', calcular_valor_total(inventario))
+

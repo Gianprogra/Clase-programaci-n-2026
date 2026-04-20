@@ -44,17 +44,17 @@ def factorial(a):
 
 def inversa(a):
     if a == 0:
-        return "No existe"
+        return 'No existe'
     return 1 / a  # inverso del número
 
 
 
 #  USO DE LAS FUNCIONES
-print("Suma:", suma(a, b))
-print("Resta:", resta(a, b))
-print("Multiplicación:", multiplicacion(a, b))
-print("División:", division(a, b))
-print("Raíz de a:", raiz_cuadrada(a))
-print("Potencia a^b:", potencia(a, b))
-print("Factorial de a:", factorial(a))
-print("Inversa de a:", inversa(a))
+print('Suma:', suma(a, b))
+print('Resta:', resta(a, b))
+print('Multiplicación:', multiplicacion(a, b))
+print('División:', division(a, b))
+print('Raíz de a:', raiz_cuadrada(a))
+print('Potencia a^b:', potencia(a, b))
+print('Factorial de a:', factorial(a))
+print('Inversa de a:', inversa(a))
